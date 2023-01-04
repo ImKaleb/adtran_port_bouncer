@@ -4,13 +4,13 @@ This is a simple script that will build the config to bounce ports on an Adtran 
 
 ## On the Adtran Chassis
 
-Run the command:
+### Run the command
 
 `show table interfaces gigabit-ethernet @1/1 | i @`
 
 This will give you similar output to below
 
-```
+``` txt
 giga-eth 1/0/1@1/1/9.gpon is IS and up
 giga-eth 1/0/2@1/1/9.gpon is OOS-UAS and down
 giga-eth 2/0/1@1/1/9.gpon is IS and up
@@ -59,4 +59,4 @@ Edit line 25 to have the output filepath & name that you want
 
 When you run the file it will create the file with the name/location you added into line 25 of the script
 
-The configuration it gives should be the correct syntax to copy/paste directly into the Adtran chassis to reboot all the ports for the Card/Slot you specified in the [first command](#-On-the-Adtran-Chassis)
+The configuration it gives should be the correct syntax to copy/paste directly into the Adtran chassis to reboot all the ports for the Card/Slot you specified in the [first command](#run-the-command)
