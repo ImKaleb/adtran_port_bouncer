@@ -1,5 +1,6 @@
+filepath = "\interfaces.txt" # ← CHANGE THIS FILEPATH TO MATCH PATH\TO\YOUR\ADTRAN-OUTPUT.TXT
+
 # Open the file containing the interface information
-filepath = "\interfaces.txt"
 with open(filepath, 'r') as f:
     # Read the lines of the file and store them in a list
     interface_list = f.readlines()
