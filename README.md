@@ -59,4 +59,4 @@ Edit line 25 to have the output filepath & name that you want
 
 When you run the file it will create the file with the name/location you added into line 25 of the script
 
-The configuration it gives should be the correct syntax to copy/paste directly into the Adtran chassis to reboot all the ports for the Card/Slot you specified in the [first command](##-On-the-Adtran-Chassis)
+The configuration it gives should be the correct syntax to copy/paste directly into the Adtran chassis to reboot all the ports for the Card/Slot you specified in the [first command](#-On-the-Adtran-Chassis)
